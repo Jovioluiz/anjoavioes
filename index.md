@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Página Inicial</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Anjo Aviões"> <!--tags para ajudar a indexar nas buscas-->
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="shortcut icon" type="image/x-icon" href="imagens/icone.ico"> <!--colocar icone na aba do navegador-->
+	<link href="https://fonts.google.com/specimen/Dokdo?selection.family=Dokdo" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1 id="titulo">Anjo Aviões. Levando Você Mais Alto!</h1>
+		<nav>
+			<div id="menu">
+				<ul>
+					<li><a href="index.html">Página Inicial</a></li>
+					<li><a href="servicos.html">Serviços Disponíveis</a></li>
+					<li><a href="avioes.html">Aviões Disponíveis</a></li>
+					<li><a href="helicopteros.html">Helicópteros Disponíveis</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>	
+			</div>	
+		</nav>
+	</header>
 
-You can use the [editor on GitHub](https://github.com/Jovioluiz/anjoavioes/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+	<section id="sec-2">
+		<p>A Anjo Aviões atua no mercado de aviação civil há aproximadamente de 5 anos. Conta com aviões de última geração e da melhor tecnologia. Nossos pilotos, além de competentes e treinados, são totalmente apaixonados pela aviação. Prezamos pela segurança e pelo cumprimento de todas as normas de aviação civil. A Anjo Aviões é a solução para otimização de seu tempo. Transporte Aéreo com padrões internacionais de segurança e excelência no atendimento.</p>
+	</section>
+	
+	
+	<video id="v1" width="320" height="240" controls autoplay muted>
+		<source src="videos/Legacy_450.mp4" type="video/mp4">
+	</video>
+	<video id="v2" width="320" height="240" controls autoplay muted>
+		<source src="videos/Lineage_1000E.mp4" type="video/mp4">
+	</video>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+		<footer>
+			<p>Todos os Direitos Reservados &copy;</p>
+			<p>Desenvolvido por Jóvio L. Giacomolli 2019</p>
+		</footer>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jovioluiz/anjoavioes/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+	</body>
+	</html>
